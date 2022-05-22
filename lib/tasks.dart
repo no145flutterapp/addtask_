@@ -143,11 +143,29 @@ class _todouiState extends State<focustask> {
                 ),
                 backgroundColor: Color(0xFF03989E),
               ),
+              drawer: Drawer(
+                child:Column(
+                  children: [
+                    DrawerHeader(
+                      child: Container(
+                      color:Color(0xFF4CB2C6),
+                    ),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.account_circle_rounded,color:Colors.black),
+                      title:Text('MY PROFIL'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.add_alarm,color:Colors.black),
+                      title:Text('TIMER'),
+                    ),
+                  ],
+                )
+              ),
               appBar: AppBar(
                 titleSpacing: 30,
                 shadowColor: Colors.white,
                 actions: <Widget>[
-                  Icon(Icons.home, size: 30,color:Colors.white),
                   Icon(Icons.mail, size: 30,color:Colors.white),
                 ],
                 backgroundColor: Color(0xFF03989E),
@@ -179,6 +197,25 @@ class _todouiState extends State<focustask> {
                   color: Colors.white,
                 ),
                 backgroundColor: Color(0xFF03989E),
+              ),
+              drawer: Drawer(
+                child:Column(
+                  children: [
+                    DrawerHeader(
+                      child: Container(
+                      color:Color(0xFF4CB2C6),
+                    ),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.account_circle_rounded,color:Colors.black),
+                      title:Text('MY PROFIL'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.add_alarm,color:Colors.black),
+                      title:Text('TIMER'),
+                    ),
+                  ],
+                )
               ),
               appBar: AppBar(
                 titleSpacing: 30,
