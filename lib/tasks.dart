@@ -165,9 +165,6 @@ class _todouiState extends State<focustask> {
               appBar: AppBar(
                 titleSpacing: 30,
                 shadowColor: Colors.white,
-                actions: <Widget>[
-                  Icon(Icons.mail, size: 30,color:Colors.white),
-                ],
                 backgroundColor: Color(0xFF03989E),
                 centerTitle: true,
                 title: Text(
@@ -222,10 +219,6 @@ class _todouiState extends State<focustask> {
                 backgroundColor: Color(0xFF03989E),
                 centerTitle: true,
                 shadowColor: Colors.white,
-                actions: <Widget>[
-
-                  Icon(Icons.arrow_forward, size: 30,color:Colors.white),
-                ],
                 title: Text(
                   " FocusTask ",
                   style: TextStyle(
